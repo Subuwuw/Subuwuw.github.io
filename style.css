@@ -1,0 +1,76 @@
+html *
+{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: rgba(245, 244, 244, 0.75);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.row,.header {
+    padding-top: 25px;
+}
+a {
+    text-decoration: none;
+}
+.maincont{
+    height: 350px;
+}
+
+.myphoto img{
+    border-radius: 50%;
+    width: 80%;
+}
+.name {
+    color: white;
+}
+.proffesion {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contact img{
+    width: 4vh;
+    margin: 10px;
+
+}
+.contact {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.callnumb {
+    text-align: right;
+    margin-top: 10px;
+    color: white;
+}
+
+.headcol {
+    background-color: #00C9A7 ;
+}
+
+.what-i-know{
+    text-align: left;
+
+}
+.what-learn-now {
+    text-align: right;
+}
+.wik {
+    margin-top: 40px;
+    
+}
+
+.sub {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 90%;
+    background: antiquewhite;
+    display: inline;
+
+}
+.test {
+    margin-bottom: 10px;
+}
