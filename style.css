@@ -64,13 +64,15 @@ a {
 }
 
 .sub {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 90%;
     background: antiquewhite;
-    display: inline;
+    display: inline-block;
 
 }
+
 .test {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
+
 }
