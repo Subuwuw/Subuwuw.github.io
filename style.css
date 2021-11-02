@@ -94,3 +94,10 @@ a {
     text-align: center;
 }
 
+.footer1 {
+
+    background-color: #00C9A7;
+    min-height: calc(11vh - 80px);
+    margin-top: 40px;
+    border-radius: 10% 10% 0% 0%;
+}
