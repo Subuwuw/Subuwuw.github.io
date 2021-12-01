@@ -3,12 +3,6 @@ html *
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
-body {
-    background-color: rgba(245, 244, 244, 0.75);
-    font-family: 'Roboto', sans-serif;
-
-
-}
 
 .row,.header {
     padding-top: 25px;
@@ -23,9 +17,11 @@ a {
 .myphoto img{
     border-radius: 50%;
     width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
+
 .name {
-    color: white;
+    color: rgb(125, 89, 50);
 }
 .telnum {
     padding-top: 10px;
@@ -35,7 +31,7 @@ a {
 }
 
 .proffesion {
-    color: white;
+    color: rgb(125, 89, 50);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,6 +39,7 @@ a {
 .contact img{
     width: 4vh;
     margin: 10px;
+    box-shadow: 0 0 20px rgb(234, 214, 167);
 
 }
 .contact {
@@ -53,11 +50,11 @@ a {
 .callnumb {
     text-align: right;
     margin-top: 10px;
-    color: white;
+    color: rgb(125, 89, 50);
 }
 
 .headcol {
-    background-color: #00C9A7 ;
+    background-color: rgb(234, 214, 187);
 }
 
 .what-i-know{
@@ -77,6 +74,7 @@ a {
     font-size: 90%;
     background: antiquewhite;
     display: inline-block;
+    border-radius: 5px;
 
 }
 
@@ -96,8 +94,13 @@ a {
 
 .footer1 {
 
-    background-color: #00C9A7;
-    min-height: calc(11vh - 80px);
+    background-color: rgb(234, 214, 187);
+    min-height: calc(20vh - 80px);
     margin-top: 40px;
     border-radius: 10% 10% 0% 0%;
+}
+body {
+    color: rgb(255, 249, 238);
+    font-family: 'Roboto', sans-serif;
+    background:  rgb(255, 249, 238) !important;
 }
