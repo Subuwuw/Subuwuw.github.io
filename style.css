@@ -1,106 +1,169 @@
-html *
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
 }
 
-.row,.header {
-    padding-top: 25px;
+.aboutme a {
+  color: #0f7afc;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
 }
-a {
-    text-decoration: none;
+.nav-bar {
+  height: 180rem;
+  width: 10rem;
+  position: fixed;
+  background-color: rgb(189, 93, 56);
+  text-align: center;
 }
-.maincont{
-    height: 320px;
+.center-content {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 22rem;
+  padding-top: 2rem;
+  margin-bottom: 200px;
 }
-
-.myphoto img{
-    border-radius: 50%;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+.nav_menu {
+  text-align: center;
+  padding: 20px;
 }
-
-.name {
-    color: rgb(125, 89, 50);
+.nav_menu,
+.about_nav,
+.experience_nav,
+.skills_nav,
+.interests_nav {
+  padding-top: 15px;
 }
-.telnum {
-    padding-top: 10px;
+.myphoto-img {
+  width: 200px !important;
+  text-align: center;
+  margin-top: 12rem;
+  border-radius: 50%;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
-.aboutm {
-    margin-top: 40px;
+.name-surename h1 {
+  padding: 0px;
+  margin: 0px;
+  margin: 10rem 0 0 0;
+  color: #343a40;
+  font-weight: bold;
+  font-size: 82px;
 }
-
-.proffesion {
-    color: rgb(125, 89, 50);
-    font-family: 'Roboto', sans-serif;
+.name-surename span {
+  padding-left: 0px;
+  margin: 12rem 0 0 0;
+  color: rgb(189, 93, 56);
+  font-size: 82px;
 }
-
-
-.contact img{
-    width: 4vh;
-    margin: 10px;
-    box-shadow: 0 0 20px rgb(234, 214, 167);
-
+.qa {
+  margin-left: 8rem;
+  font-weight: bold;
+  color: #6c757d;
 }
-.contact {
-    text-align: right;
-    font-family: 'Roboto', sans-serif;
-    
+.cityname {
+  font-weight: 400;
+  color: #6c757d;
 }
-.callnumb {
-    text-align: right;
-    margin-top: 10px;
-    color: rgb(125, 89, 50);
+.mymail {
+  font-weight: 400;
+  color: #6c757d;
 }
-
-.headcol {
-    background-color: rgb(234, 214, 187);
-}
-
-.what-i-know{
-    text-align: left;
-
-}
-.what-learn-now {
-    text-align: right;
-}
-.wik {
-    margin-top: 40px;
-    
-}
-
-.sub {
-    margin-left: 40px;
-    font-size: 90%;
-    background: antiquewhite;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 5px
+.myphone {
+  font-weight: 400;
+  color: #6c757d;
 }
 
-.test {
-    margin-bottom: 20px;
-    
-
+.aboutme {
+  font-size: 1rem;
+  padding-top: 5em;
+  color: #6c757d;
+}
+.social-icons {
+  display: flex;
+  text-align: center;
+  transition: 0.35s;
+}
+.social-icons img {
+  max-height: 50px;
+  margin: 25px 0 0 0px;
+}
+.forfix img {
+  margin-right: 15px;
+  transition: 0.25s;
+}
+.forfix :hover {
+  transform: scale(1.3);
+  border-radius: 50%;
+  border: #343a40;
+  border-color: #0f7afc;
+  transition: 0.25s;
+  box-shadow: 0 0 0 0.25rem rgba(254, 160, 78, 0.625);
+}
+.scaleimg img {
+  transition: 0.15s;
+}
+.scaleimg img:hover {
+  transform: scale(1.2);
+  transition: 0.45s;
+}
+.about_me_info {
+  margin-bottom: 20rem;
+}
+p .chtex {
+  color: antiquewhite;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.953);
+}
+.cutborder {
+  border-radius: 50px;
+}
+.smashme {
+  max-height: 305px;
+}
+.navabout a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.navabout a:hover {
+  color: rgb(0, 0, 0) !important;
 }
 
-.joke {
-    font-size: 80%;
+.navabout {
+  transition: 0.34s;
+  color: rgb(0, 0, 0);
+}
+.navabout:hover {
+  transform: scale(1.3);
+  transition: 0.34s;
+  color: rgb(0, 0, 0);
+}
+.footer {
+  background-color: rgb(186, 98, 58);
+  height: 5vh;
+  border-radius: 10px 10px 0px 5px;
+}
+.qaeng {
+  text-align: center;
+  padding-top: 10px;
+}
+.nameme {
+  padding-top: 10px;
+  text-align: right;
+}
+.fadestyle {
+  position: relative;
+}
+.lore {
+  margin-top: 50px;
 }
 
-.about-ms h3{
-    text-align: center;
-}
-
-.footer1 {
-
-    background-color: rgb(234, 214, 187);
-    min-height: calc(20vh - 80px);
-    margin-top: 40px;
-    border-radius: 10% 10% 0% 0%;
-}
-body {
-    color: rgb(255, 249, 238);
-    font-family: 'Roboto', sans-serif;
-    background:  rgb(255, 249, 238) !important;
+.contin {
+  margin-top: 50px;
 }
