@@ -4,9 +4,10 @@
 
                                                     Проверки: 'abba', 'Abba'
 */
-document.querySelector(".getText").onclick = myClick;
-function myClick(string) {
-  string = document.querySelector(".palindrom").value;
+document.querySelector("#palindrom").onsubmit = onSubmit;
+function onSubmit(e) {
+  e.preventDefault();
+  let string = document.querySelector(".palindrom").value;
   // в переменную присваиваем часто используемый метод - убираем отступы и приобразуем в lowercase
   let str = string.replace(/[* ]/gi, "").toLocaleLowerCase();
   //разбиваем строку на массив, отражаем, соединяем обратно.
