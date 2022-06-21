@@ -1,359 +1,629 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        
-                            <!-- Yandex.Metrika counter -->
-                    <script type="text/javascript" >
-                      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-                      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css style -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- start  -->
+    <title>QA Engineer Сорока Сергей</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
 
-                      ym(86772358, "init", {
-                          clickmap:true,
-                          trackLinks:true,
-                          accurateTrackBounce:true,
-                          webvisor:true
-                  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/86772358" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-
-
-<!-- Вы у меня спросите зачем столько библиотек, а я вам отвечу - " ¯\_(ツ)_/¯ "-->
-
-</head>
+      ym(89265161, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/89265161"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
   <body>
-      <div class="headcol">
-        <div class="container maincont">
-
-          <div class="row header">
-
-
-            <div class="row col-6 myphoto">
-                <div class="col photo">
-                  <img src="myphoto.jpg" alt="">
-                </div>    
-                <div class="col name">
-                  <h3>Сорока Сергей</h3>
-                  <span>Junior QA Engineer</span><br>
-                  <span class="city">г.Казань</span> <br>
-                  <div class="telnum">
-                    <span >+781111111</span>
-                  </div>
-                  
-                  
-                </div>
-
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="nav-bar col-2" id="nav-bar">
+          <img
+            class="myphoto-img img-fluid"
+            src="/Assets/img/myphoto.jpg"
+            alt=""
+          />
+          <div class="nav_menu">
+            <div class="about_nav col-md-12 col-sm-2 navabout">
+              <span><a href="#fio">About</a></span>
             </div>
-
-            
-            <div class="col-6 contact ">
-
-                    <div class="col gmail">
-                      <a href="mailto:doppelganger444@gmail.com?subject=Тестирование"><img src="./svg/gmail.svg" alt=""></a>
-                     </div>
-            
-
-                    <div class="col telegram">
-                      <a href="https://t.me/usleeptimer"><img src="./svg/telegram.svg" alt=""></a>
-                    </div>
-
-                    <div class="col git">
-                      <a href="https://github.com/Subuwuw"> <img src="./svg/git.svg" alt=""></a>
-                      
-                    </div>
-              </div>
-        </div>
-
-      </div>
-        </div>
-<!-- Конец Header'a-->
-
-<!--Что Изучаю & планирую выучить-->
-     <div class="container aboutm">
-
-       <div class="row">
-
-            <div class="col what-i-know">
-                <h3>То что знаю</h3>
-                <div class="wik">
-                
-                  <div class="test">
-                          <div class="subhead"> 
-                              <span>Знание основ тестирования</span>
-                          </div>
-
-                        <div class="sub">
-                            <span> Цель, принципы, этапы тестирования</span>
-                        </div>  
-                        <br>
-
-                  </div>
-
-                  <div class="test">
-                      <div class="subhead">
-                            <span>Методологии тестирования</span>
-                      </div>
-                      <div class="sub">
-                            <span>Водопад, V-модель, Спираль, Инкрементная, семейство Agile</span>
-                      </div> 
-                     <br>
-                  </div>
-
-
-                  
-
-
-
-                  <div class="test">
-                      <div class="subhead"> 
-                            <span>Понимание White\Black\Grey Box</span>
-                      </div>
-                        <div class="sub">
-                            <span>Понимаю разницу между ними</span>
-                        </div>
-                    <br>
-                  </div>  
-
-                  <div class="test">
-                    <div class="subhead">
-                          <span>Понимание составление тест-плана</span>
-                    </div>
-                    <div class="sub"><span>Тест-план, чек-лист и оформил баг-репорт , ознакомится можно здесь :
-                      <a href="https://docs.google.com/document/d/1P2BlbHCu8RW5JXz3cocL1xmxmTV7Gyg4/edit?usp=sharing&ouid=109013704726611293013&rtpof=true&sd=true">Тык</a>
-                    </span>
-                  </div>
-                  <br>
-                  </div>
-
-
-                  
-                  <div class="test">
-                    <div class="subhead">
-                          <span>Умение составлять тест кейсы</span>
-                    </div>
-                    <div class="sub"><span>Примеры тест-кейсов
-                      <br>
-                      <a href="https://docs.google.com/spreadsheets/d/16ShxECJ66dIKre5IduUviVmiwT9OuQgzRJzKwgQpsJc/edit?usp=sharing">Google Document</a>
-                      <br>
-                      <a href="https://docs.google.com/spreadsheets/d/1J5bvzvPbtPzREqLwy33EAsvSoB5ZMGVtDHICQN9U2Yo/edit?usp=sharing">Google Document</a>
-                    </span>
-                  </div>
-                  <br>
-                  </div>
-
-                  <div class="test">
-                      <div class="subhead">
-                          <span> Оформление понятных баг репортов</span>
-                       </div>
-                       <div class="sub">
-                         <span>К примеру возьму составленные баг-репорты на utest площадке: </span> <br>
-                          <a href="https://github.com/Subuwuw/Subuwuw.github.io/blob/master/issue.png"><img src="" alt="">Тут </a>
-                          <a href="https://github.com/Subuwuw/Subuwuw.github.io/blob/master/issue2.png"><img src="" alt="">тут</a>
-
-                       </div>
-                      <br>
-                  </div>
-                  
-                  <div class="test">
-                    <div class="subhead">
-                          <span>Понимание жизненного цикла бага</span>
-                    </div>
-                    <div class="sub">
-                      <span>Обнаружил-> завёл баг-репорт->(меняется статус на дубликат\отклонен\отстрочен\не баг\Открыт
-                        (в процессе исправления) \ Исправлен -> делаем ретестинг -> (меняется статус на проверен
-                         затем закрыт или на переоткрыт (назначен))
-                      </span>
-                    </div>
-                  <br>
-                  </div>
-
-                  <div class="test">
-                    <div class="subhead">
-                        <span>Тестовая документация (тестовые артефакты)</span>
-                    </div>
-                    <div class="sub">
-                      <span>Тест-кейс, баг-репорт, чек-лист, спецификация требований </span>
-                    </div>
-                </div>
-
-                  <div class="test">
-                      <div class="subhead">
-                          <span>HTML \ CSS</span>
-                      </div>
-                      <div class="sub">
-                        <span>Начальные навыки верстки + bootstrap <span class="joke">этот лэндинг я сделаль...</span> </span>
-                      </div>
-                  <br>
-                  </div>
-
-
-                  <div class="test">
-                      <div class="subhead">
-                          <span>Github \ Gitbash</span>
-                      </div>
-                      <div class="sub">
-                        <span>Пользуюсь команадми status, add ,commit, push, merge, branch, checkout</span>
-                      </div>
-                  </div>
-
-
-                 
-                
-              </div>
-
+            <div class="skills_nav col-md-12col-sm-2 navabout">
+              <span><a href="#skills">Skills</a></span>
             </div>
-
-            <div class="col what-learn-now">
-                <h3>То что изучаю в данный момент</h3>
-            
-            <div class="wik">
-              <span>
-
-                <div class="test">
-                  <div class="subhead">
-                      <span>Selenium, jUnit</span>
-                  </div>
-                  <div class="sub">
-                    <span>Пишу простые UI автотесты, знакомлюсь с java,синтаксисом <br>
-                     Автотесты пишу на сайт <a href="http://testingchallenges.thetestingmap.org">testingchallenges</a> Посмотреть можно здесь <a href="https://github.com/Subuwuw/Automate-Testing-Form-challenge">GitHub</a>
-                    </span>
-                  </div>
-              </div>
-
-
-                <div class="test">
-                  <div class="subhead">
-                      <span>JMeter</span>
-                  </div>
-                  <div class="sub">
-                    <span>пытаюсь овладеть нагрузочным тестированием</span>
-                  </div>
-              </div>
-
-              <div class="test">
-                <div class="subhead">
-                    <span>Postman</span>
-                </div>
-                <div class="sub">
-                  <span>Использовал <a href="http://users.bugred.ru/">users.bugred.ru</a>,
-                     с помощью json и query параметров запросами:
-                  создавал пользователя, создавал компанию , присваивал задания пользователям, менял аватар.
-                  <br>
-                   отправлял масивы в теле запроса form-data 
-                   <br>
-                  <a href="https://github.com/Subuwuw/user.bugred">Git пример+JS</a>
-                </span>
-                </div>
-              </div>
-
-              <div class="test">
-                <div class="subhead">
-                    <span>Burp Suite</span>
-                </div>
-                <div class="sub">
-                  <span>Перехват трафика и подмена</span>
-                </div>
-              </div>
-
-
-              <div class="test">
-                <div class="subhead">
-                    <span>Fiddler</span>
-                </div>
-                <div class="sub">
-                  <span>Подмена трафика Autoresponder</span>
-                </div>
-              </div>
-
-              <div class="test">
-                <div class="subhead">
-                    <span>DevTools</span>
-                </div>
-                <div class="sub">
-                  <span>Просмотр информации о запросах (тело и ответ запросов, заголовки), анализ верстки. </span>
-                </div>
-              </div>
-
-
+            <div class="experience_nav col-md-12 col-sm-2 navabout">
+              <span>Experience</span>
+            </div>
+            <div class="interests_nav col-md-12 col-sm-2 navabout">
+              <span>Interests</span>
             </div>
           </div>
-
-          
-
-       </div>
-
-     </div>
-
-<!-- Прочая инфа-->
-
-     <div class="container">
-       <div class="row">
-
-         <div class="col about-ms">
-            <h3>Обо мне</h3>
-
-              <div class="row">
-
-                <div class="col-8">
-                  <span>Изучаю тестирование по курсам от ITVDN(Артем Быковец) ,<br> Прочел книгу С.Куликов "Тестирование программного обеспечения " 3-е издание (2021) <br>
-                  <a href="Artsiom Rusau QA Life">(YT)Artsiom Rusau QA Life</a>,
-                   <br>  
-                  <a href="https://www.youtube.com/c/QASTARTUPITTrainingCenter/featured">(YT)QA START UP - IT Training Center</a>
-                   <br>
-                  <a href="https://www.youtube.com/channel/UC6hNNlCXv1ZgdGpziNf83RA">(YT)Собеседования Вадима Ксендзова</a>
-                   <br>
-                  + по слитым курсам с coursehunter
-                  <br><br>
-                  <br><br>
-                  Почему именно тестирование? - одновременно простой и сложный вопрос для меня, скажу с уверенностью IT-технологии постоянно
-                   развиваются и нужно все время изучать что-то новое, так же есть много ответвлений в тестировании, что не может не радовать меня. 
-                  </span>
-
-                </div>
-                <div class="col-3">
-                  <span>Хобби: езда на шоссейном велосипеде, готовка, фотографии,видео-монтаж компьютерные игры и
-                     ещё куча маленьких вплоть до вязания крючком xD</span>
-
-
+        </nav>
+        <div class="col-8 center-content">
+          <div class="container">
+            <div class="row-12">
+              <div class="about_me_info">
+                <div class="name-surename row-12" id="fio">
+                  <h1 class="col-6 col-sm-12">
+                    СОРОКА<span class="col-6 col-sm-12">СЕРГЕЙ</span>
+                  </h1>
                 </div>
 
+                <div class="qa row">
+                  <span class="cityname col-lg-2 col-sm-4">г.Казань</span>
+                  <span class="col-lg-4 col-sm-4">QA ENGINEER</span>
+                </div>
 
+                <div class="contact-info row">
+                  <span class="myphone col-lg-2 col-sm-4">+78546513354</span>
+                  <span class="mymail col-lg-4 col-sm-4"
+                    >doppelganger444@gmail.com</span
+                  >
+                </div>
 
+                <div class="aboutme">
+                  Изучаю тестирование при помощи курсов и самостоятельно. <br />
+                  Сейчас прохожу курсы по тестированию от
+                  <a href="https://ksendzov.com/">Вадима Ксендзова</a>
+                  <p>
+                    <br />
+                    А так же : Прочел книгу С.Куликов "Тестирование программного
+                    <br />
+                    обеспечения " 3-е издание (2021) слитые курсы с
+                    coursehunter: <br />
+                    ITVDN(Артем Быковец),softwaretesting – тестирование без<br />
+                    требований : Тестирование REST API.
+                  </p>
+                </div>
+                <div class="social-icons">
+                  <a
+                    class="forfix first"
+                    href="https://www.linkedin.com/in/serhii-sorokaqa/"
+                    target="_blank"
+                    ><img src="/Assets/img/linkedin.png" alt=""
+                  /></a>
+                  <a
+                    class="forfix"
+                    href="https://github.com/Subuwuw"
+                    target="_blank"
+                    ><img src="/Assets/img/github.png" alt=""
+                  /></a>
+                  <a
+                    class="forfix"
+                    href="https://t.me/usleeptimer"
+                    target="_blank"
+                    ><img src="/Assets/img/telegram.png" alt=""
+                  /></a>
+                  <a
+                    class="forfix"
+                    href="https://kazan.hh.ru/resume/4d6198d3ff09e0d6c00039ed1f4c7970386b6b"
+                    target="_blank"
+                    ><img src="/Assets/img/hh.png" alt=""
+                  /></a>
+                </div>
               </div>
-         </div>
+              <div class="row row-cols-1 row-cols-md-2 g-4" id="skills">
+                <!--  -->
+                <div class="col">
+                  <div class="card">
+                    <!--  -->
+                    <div
+                      id="carouselExampleInterval1"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="Assets/img/carousel/testcase1.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="Assets/img/carousel/testcase2.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="Assets/img/carousel/testcase3.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval1"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval1"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <!--  -->
+                    <div class="card-body">
+                      <h5 class="card-title">Тест-кейсы</h5>
+                      <p class="card-text">
+                        Написание тест-кейсов с приминением техник тест-дизайна
+                        <a
+                          href="https://docs.google.com/spreadsheets/d/16ShxECJ66dIKre5IduUviVmiwT9OuQgzRJzKwgQpsJc/edit?usp=sharing"
+                          target="_blank"
+                          >Тест-кейсы #1</a
+                        >
+                        <a
+                          href="https://docs.google.com/spreadsheets/d/1Nvn4MqGgjFHUpfhF16FqDhrKty0YzjjM/edit?usp=sharing&ouid=109013704726611293013&rtpof=true&sd=true"
+                          target="_blank"
+                          >Тест-кейсы #2</a
+                        >
+                        <br /><a
+                          href="https://docs.google.com/spreadsheets/d/1lqeRF1ET3PaRD2TsZz9t2853s4lbEDdpNzN5HJ9mAYw/edit?usp=sharing"
+                          target="_blank"
+                          >Баг-репорт #1</a
+                        >
+                        <a
+                          href="https://docs.google.com/spreadsheets/d/1qbmQRzjTmsTDYQjJdopABYGpDMFr5gRuvSOPfA_9Ctk/edit?usp=sharing"
+                          target="_blank"
+                          >Баг-репорт #2</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
+                <!--  -->
+                <div class="col">
+                  <div class="card">
+                    <div
+                      id="carouselExampleInterval2"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="/Assets/img/postman/postman1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="/Assets/img/postman/postman2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="/Assets/img/postman/postman3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="/Assets/img/postman/postman4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval2"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval2"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Postman</h5>
+                      <p class="card-text">
+                        Тестирование API. Запуск колекций, с приминением
+                        переменных и окружений. Базовые проверки на JS + снипеты
+                        postman
+                        <a
+                          href="https://github.com/Subuwuw/user.bugred"
+                          target="_blank"
+                          >Пример GitHub Export json</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div
+                      id="carouselExampleInterval3"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="/Assets/img/js/js1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="/Assets/img/js/js2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="/Assets/img/js/js3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval3"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval3"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">JavaScript</h5>
+                      <p class="card-text">
+                        Базовое понимание JS. Переменные, типы, циклы.
+                        <br /><br />
+                        <a
+                          href="https://github.com/Subuwuw/JS-homeWork-Script-Functions"
+                          target="_blank"
+                          >Примеры GitHub JS #1</a
+                        >. <br />
+                        <a
+                          href="https://github.com/Subuwuw/jsHomeWork"
+                          target="_blank"
+                          >Примеры GitHub JS #2</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card fadestyle">
+                    <div
+                      id="carouselExampleInterval4"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="Assets/img/github/github1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div
+                          class="carousel-item scaleimg"
+                          data-bs-interval="2000"
+                        >
+                          <img
+                            src="Assets/img/github/github1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="Assets/img/github/github2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval4"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval4"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">GitHub</h5>
+                      <p class="card-text">
+                        Работа с терминал GitHub:
+                        add,commit,merge,push,branch,checkout. Базовые навыки
+                        работы с Linux-терминалом. Подключение через ssh/PuTTY к
+                        терминалу Linux
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- start 5-6 -->
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <div
+                      id="carouselExampleInterval5"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="Assets/img/html/html.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item scaleimg">
+                          <img
+                            src="Assets/img/html/html2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval5"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval5"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <!--  -->
+                    <div class="card-body">
+                      <h5 class="card-title">HTML/CSS/BOOTSTRAP</h5>
+                      <p class="card-text">
+                        Понимание html/css верстки. Этот лендинг написал сам, с
+                        использованием bootstrap. <br />
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-       </div>
-     </div>
+                <!--  -->
+                <div class="col">
+                  <div class="card">
+                    <div
+                      id="carouselExampleInterval6"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner smashme">
+                        <div
+                          class="carousel-item active scaleimg"
+                          data-bs-interval="5000"
+                        >
+                          <img
+                            src="/Assets/img/Java/java.gif"
+                            class="d-block w-100 scaleimg"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval6"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval6"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Автотестирование на Java</h5>
+                      <p class="card-text">
+                        Автотестирование на Java + Maven + Selenium паттерн
+                        pageObject, с библиотеками TestNG-для удобного запуска
+                        паралельных тестов и группирования, Allure - для
+                        отчетов, junit- проверки
+                        <a href="https://github.com/Subuwuw/com.demoWebShop"
+                          >GitHub Проект</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
 
-     <div class="footer1">
-       <div class="footer2">
-       </div>
-     </div>
+              <div class="lore">
+                Хобби: езда на шоссейном велосипеде, готовка, фотографии,
+                видео-монтаж компьютерные игры и ещё куча маленьких вплоть до
+                вязания крючком
+              </div>
+              <div class="contin">
+                <p>Лендинг ещё будет допиливаться и наполняться...</p>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  placeholder="Проверка на палиндром"
+                  aria-label=".form-control-sm example"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="del col-1"></div>
+        <footer class="footer row">
+          <p class="col-6 qaeng">QA Engineer</p>
+          <p class="col-6 nameme">Сорока Сергей 2022</p>
+        </footer>
+      </div>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-      
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="scriptfades.js"></script> -->
   </body>
 </html>
