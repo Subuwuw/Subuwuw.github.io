@@ -75,7 +75,7 @@
               <span><a href="#skills">Skills</a></span>
             </div>
             <div class="experience_nav col-md-12 col-sm-2 navabout">
-              <span>Experience</span>
+              <span><a href="#examples">Examples JS</a></span>
             </div>
             <div class="interests_nav col-md-12 col-sm-2 navabout">
               <span>Interests</span>
@@ -468,7 +468,7 @@
                 </div>
               </div>
               <!-- start 5-6 -->
-              <div class="row row-cols-1 row-cols-md-2 g-4 martop">
+              <div class="row row-cols-1 row-cols-md-2 g-4 martop" id="skills">
                 <div class="col">
                   <div class="card">
                     <div
@@ -595,6 +595,42 @@
               </div>
               <!--  -->
 
+              <div class="localfix">
+                <div class="row palindromJSfunction" id="examples">
+                  <!-- Палиндром ! -->
+                  <div class="row">
+                    <div class="col-12">
+                      <h5>Является ли слово палиндромом?</h5>
+                    </div>
+                    <div class="col-4">
+                      <input
+                        required
+                        class="form-control form-control-sm palindrom"
+                        type="text"
+                        id="result"
+                        placeholder="Проверка на палиндром"
+                        aria-label=".form-control-sm example"
+                      />
+                      <input
+                        class="btn btn-primary getText col-4"
+                        type="button"
+                        value="Проверить"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control result"
+                          placeholder="Leave a comment here"
+                          id="floatingTextarea2"
+                          style="height: 100px"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <!--  -->
+                  </div>
+                </div>
+              </div>
               <div class="lore">
                 Хобби: езда на шоссейном велосипеде, готовка, фотографии,
                 видео-монтаж компьютерные игры и ещё куча маленьких вплоть до
@@ -602,18 +638,16 @@
               </div>
               <div class="contin">
                 <p>Лендинг ещё будет допиливаться и наполняться...</p>
-                <input
-                  class="form-control form-control-sm"
-                  type="text"
-                  placeholder="Проверка на палиндром"
-                  aria-label=".form-control-sm example"
-                />
               </div>
             </div>
           </div>
         </div>
 
-        <div class="del col-1"></div>
+        <div class="del col-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto
+          beatae a quis veniam, similique velit, voluptatem quos aliquam optio,
+          asperiores non quo at rerum quas reiciendis quibusdam amet inventore!
+        </div>
         <footer class="footer row">
           <p class="col-6 qaeng">QA Engineer</p>
           <p class="col-6 nameme">Сорока Сергей 2022</p>
@@ -623,6 +657,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./palindromCheck.js"></script>
 
     <!-- <script src="scriptfades.js"></script> -->
   </body>

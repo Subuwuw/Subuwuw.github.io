@@ -10,9 +10,12 @@ h1 {
   padding: 0px;
   text-transform: uppercase;
 }
+#skills p {
+  color: #41635e;
+}
 
 .aboutme a {
-  color: #0f7afc;
+  color: #91bfbc;
   text-decoration: none;
   border-bottom: 1px solid;
   border-bottom-color: rgba(15, 122, 252, 0.2);
@@ -21,7 +24,7 @@ h1 {
   height: 180rem;
   width: 10rem;
   position: fixed;
-  background-color: rgb(189, 93, 56);
+  background-color: #91bfbc;
   text-align: center;
 }
 .center-content {
@@ -60,7 +63,7 @@ h1 {
 .name-surename span {
   padding-left: 0px;
   margin: 12rem 0 0 0;
-  color: rgb(189, 93, 56);
+  color: #91bfbc;
   font-size: 82px;
 }
 .qa {
@@ -105,7 +108,7 @@ h1 {
   border: #343a40;
   border-color: #0f7afc;
   transition: 0.25s;
-  box-shadow: 0 0 0 0.25rem rgba(254, 160, 78, 0.625);
+  box-shadow: 0 0 0 0.25rem #91bfbc;
 }
 .scaleimg img {
   transition: 0.15s;
@@ -145,8 +148,10 @@ p .chtex {
   color: rgb(0, 0, 0);
 }
 .footer {
-  background-color: rgb(186, 98, 58);
+  background-color: #91bfbc;
   height: 5vh;
+  width: 100%;
+  padding: 0 !important;
   border-radius: 10px 10px 0px 5px;
 }
 .martop {
@@ -169,4 +174,18 @@ p .chtex {
 
 .contin {
   margin-top: 50px;
+}
+
+.getText {
+  margin-top: 22px;
+}
+.palindromJSfunction {
+  border-bottom: 5px solid #d2dcd3;
+  border-top: 5px solid #d2dcd3;
+  padding: 15px 0 25px 0;
+  border-radius: 5px;
+}
+
+.localfix {
+  margin-top: 45px;
 }
