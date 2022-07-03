@@ -149,7 +149,7 @@ p .chtex {
 }
 .footer {
   background-color: #91bfbc;
-  height: 5vh;
+  min-height: 5vh;
   width: 100%;
   padding: 0 !important;
   border-radius: 10px 10px 0px 5px;
@@ -189,6 +189,28 @@ p .chtex {
 .localfix {
   margin-top: 45px;
 }
-.del {
-  padding-top: 14em;
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  .center-content {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  .name-surename h1 {
+    font-size: 42px;
+    margin: 0;
+  }
+  .name-surename span {
+    display: block;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 42px;
+  }
+  .about_me_info {
+    margin-bottom: 5rem;
+  }
+  .getText {
+    margin-bottom: 22px;
+  }
 }
